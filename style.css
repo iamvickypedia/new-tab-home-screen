@@ -1,0 +1,37 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 1em;
+}
+
+.clock-container {
+  font-size: 7rem;
+  font-weight: bold;
+}
+.date-container {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.message-container {
+  font-size: 2rem;
+}
+
+.search-container input {
+  all: unset;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
